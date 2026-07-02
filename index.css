@@ -33,7 +33,7 @@ nav a:hover{
     justify-content:space-between;
     align-items:center;
     padding:90px 8%;
-    gap:80px;
+    gap:40px;
 }
 
 .hero-text{
@@ -53,8 +53,11 @@ nav a:hover{
 }
 
 .hero-image img{
-    width:420px;
-    height:420px;
+    
+    width:100%;
+    max-width:420px;
+    height:auto;
+
     border-radius:50%;
     object-fit:cover;
     border:4px solid #2b3248;
@@ -119,7 +122,8 @@ nav a:hover{
     color:#9aa4c3;
     line-height:1.8;
     font-size:21px;
-    width:650px;
+    max-width:650px;
+    width:100%;
     margin-bottom:40px;
 }
 
